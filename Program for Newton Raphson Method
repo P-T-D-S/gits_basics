@@ -1,0 +1,11 @@
+input=float(input("Enter the any number:"))
+value=10**(-10)
+find=input
+square=0.0
+while True:
+    if find*find-input<=value:
+        square=find
+        break
+    find=(find +(input/find))/2
+print(square)
+
