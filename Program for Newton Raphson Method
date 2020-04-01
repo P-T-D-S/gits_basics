@@ -9,3 +9,6 @@ while True:
     find=(find +(input/find))/2
 print(square)
 
+
+input:Enter the any number:16
+output:4.0000000000000
